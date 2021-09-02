@@ -1,0 +1,20 @@
+<div class="footer">
+    <nav class="nav_bar">
+        <ul>
+            
+            {% if site.statement %}
+            <li>
+                Copyright ©  {{ site.statement }}
+            </li>
+            {% endif %}
+        </ul>
+
+        <ul>
+            {% if site.aq %}
+            <li>
+                <a href="{{ site.aqlink }}">{{ site.aq }}</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,25 @@
+## Settings
+title: DragonMaxの域
+owner: "KslgmrDry"
+url: "https://home.withwang.cn"
+baseurl: ""
+permalink: /:title/
+description: "Blog By kslgmrDry"
+markdown: kramdown
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+plugins:
+  - jekyll-sitemap
+## Global Variables
+email: dm@withwang.cn"
+github: "damx0/"
+# path to: css/, fonts/, img/ and js/
+assets_path: "/assets" # i.e. "/assets" 
+statement: "KslgmrDry, All Rights Reserved"
+aq: "蜀ICP备2021010577号-1"
+aqlink: "http://beian.miit.gov.cn"
+# default max toc levels: 1 - 6 (h1 - h6)
+toc_level: 3
+# texts randomly displayed in background
+bgtext: "loveαβγδεζηθxικyλμνdξοπρστυφχψω∷wnq∫∮∝∞∧∨h∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√p"
